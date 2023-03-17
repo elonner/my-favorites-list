@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Books</title>
+</head>
+
+<body>
+    <form action="submit" id="bookForm">
+        <h1>My Favorite Books</h1>
+
+        <label for="newBook">Add Book</label>
+        <input type="text" id="newBook" name="newBook">
+        <label for="bookPos">Position</label>
+        <input type="number" min="1" id="bookPos" name="bookPos">
+        <button type="submit" id="addBook">Add</button>
+        <button type="button" id="clearBooks">Clear List</button>
+
+        <ol id="favBooks">
+            <li>Game of Thrones</li>
+            <li>A Brief History of Time</li>
+            <li>Catch-22</li>
+        </ol>
+    </form>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

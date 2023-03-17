@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Movies</title>
+</head>
+
+<body>
+    <form action="submit" id="movieForm">
+        <h1>My Favorite Movies</h1>
+
+        <label for="newMovie">Add Movie</label>
+        <input type="text" id="newMovie" name="newMovie">
+        <label for="movPos">Position</label>
+        <input type="number" min="1" id="movPos" name="movPos">
+        <button type="submit" id="addMovie">Add</button>
+        <button type="button" id="clearMovies">Clear List</button>
+
+
+        <ol id="favMovies">
+            <li>Rushmore</li>
+            <li>Star Trek VI: Undiscovered Country</li>
+            <li>Anchorman</li>
+        </ol>
+    </form>
+
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
